@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE507232B316F2200040463 /* NotasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE507222B316F2200040463 /* NotasApp.swift */; };
+		BAE507252B316F2200040463 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE507242B316F2200040463 /* ContentView.swift */; };
+		BAE507272B316F2300040463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE507262B316F2300040463 /* Assets.xcassets */; };
+		BAE5072A2B316F2300040463 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE507292B316F2300040463 /* Preview Assets.xcassets */; };
+		BAE5072C2B316F2300040463 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5072B2B316F2300040463 /* Persistence.swift */; };
+		BAE5072F2B316F2300040463 /* Notas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAE5072D2B316F2300040463 /* Notas.xcdatamodeld */; };
+		BAE507392B316F2400040463 /* NotasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE507382B316F2400040463 /* NotasTests.swift */; };
+		BAE507432B316F2400040463 /* NotasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE507422B316F2400040463 /* NotasUITests.swift */; };
+		BAE507452B316F2400040463 /* NotasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE507442B316F2400040463 /* NotasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE507352B316F2400040463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE507172B316F2200040463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE5071E2B316F2200040463;
+			remoteInfo = Notas;
+		};
+		BAE5073F2B316F2400040463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE507172B316F2200040463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE5071E2B316F2200040463;
+			remoteInfo = Notas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE5071F2B316F2200040463 /* Notas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE507222B316F2200040463 /* NotasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasApp.swift; sourceTree = "<group>"; };
+		BAE507242B316F2200040463 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAE507262B316F2300040463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE507292B316F2300040463 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE5072B2B316F2300040463 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BAE5072E2B316F2300040463 /* Notas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notas.xcdatamodel; sourceTree = "<group>"; };
+		BAE507342B316F2400040463 /* NotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE507382B316F2400040463 /* NotasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasTests.swift; sourceTree = "<group>"; };
+		BAE5073E2B316F2400040463 /* NotasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE507422B316F2400040463 /* NotasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasUITests.swift; sourceTree = "<group>"; };
+		BAE507442B316F2400040463 /* NotasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE5071C2B316F2200040463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE507312B316F2400040463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE5073B2B316F2400040463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE507162B316F2200040463 = {
+			isa = PBXGroup;
+			children = (
+				BAE507212B316F2200040463 /* Notas */,
+				BAE507372B316F2400040463 /* NotasTests */,
+				BAE507412B316F2400040463 /* NotasUITests */,
+				BAE507202B316F2200040463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE507202B316F2200040463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5071F2B316F2200040463 /* Notas.app */,
+				BAE507342B316F2400040463 /* NotasTests.xctest */,
+				BAE5073E2B316F2400040463 /* NotasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE507212B316F2200040463 /* Notas */ = {
+			isa = PBXGroup;
+			children = (
+				BAE507222B316F2200040463 /* NotasApp.swift */,
+				BAE507242B316F2200040463 /* ContentView.swift */,
+				BAE507262B316F2300040463 /* Assets.xcassets */,
+				BAE5072B2B316F2300040463 /* Persistence.swift */,
+				BAE5072D2B316F2300040463 /* Notas.xcdatamodeld */,
+				BAE507282B316F2300040463 /* Preview Content */,
+			);
+			path = Notas;
+			sourceTree = "<group>";
+		};
+		BAE507282B316F2300040463 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAE507292B316F2300040463 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAE507372B316F2400040463 /* NotasTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE507382B316F2400040463 /* NotasTests.swift */,
+			);
+			path = NotasTests;
+			sourceTree = "<group>";
+		};
+		BAE507412B316F2400040463 /* NotasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE507422B316F2400040463 /* NotasUITests.swift */,
+				BAE507442B316F2400040463 /* NotasUITestsLaunchTests.swift */,
+			);
+			path = NotasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE5071E2B316F2200040463 /* Notas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE507482B316F2400040463 /* Build configuration list for PBXNativeTarget "Notas" */;
+			buildPhases = (
+				BAE5071B2B316F2200040463 /* Sources */,
+				BAE5071C2B316F2200040463 /* Frameworks */,
+				BAE5071D2B316F2200040463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notas;
+			productName = Notas;
+			productReference = BAE5071F2B316F2200040463 /* Notas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE507332B316F2400040463 /* NotasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE5074B2B316F2400040463 /* Build configuration list for PBXNativeTarget "NotasTests" */;
+			buildPhases = (
+				BAE507302B316F2400040463 /* Sources */,
+				BAE507312B316F2400040463 /* Frameworks */,
+				BAE507322B316F2400040463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE507362B316F2400040463 /* PBXTargetDependency */,
+			);
+			name = NotasTests;
+			productName = NotasTests;
+			productReference = BAE507342B316F2400040463 /* NotasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE5073D2B316F2400040463 /* NotasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE5074E2B316F2400040463 /* Build configuration list for PBXNativeTarget "NotasUITests" */;
+			buildPhases = (
+				BAE5073A2B316F2400040463 /* Sources */,
+				BAE5073B2B316F2400040463 /* Frameworks */,
+				BAE5073C2B316F2400040463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE507402B316F2400040463 /* PBXTargetDependency */,
+			);
+			name = NotasUITests;
+			productName = NotasUITests;
+			productReference = BAE5073E2B316F2400040463 /* NotasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE507172B316F2200040463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BAE5071E2B316F2200040463 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					BAE507332B316F2400040463 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BAE5071E2B316F2200040463;
+					};
+					BAE5073D2B316F2400040463 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BAE5071E2B316F2200040463;
+					};
+				};
+			};
+			buildConfigurationList = BAE5071A2B316F2200040463 /* Build configuration list for PBXProject "Notas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE507162B316F2200040463;
+			productRefGroup = BAE507202B316F2200040463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE5071E2B316F2200040463 /* Notas */,
+				BAE507332B316F2400040463 /* NotasTests */,
+				BAE5073D2B316F2400040463 /* NotasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE5071D2B316F2200040463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE5072A2B316F2300040463 /* Preview Assets.xcassets in Resources */,
+				BAE507272B316F2300040463 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE507322B316F2400040463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE5073C2B316F2400040463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE5071B2B316F2200040463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE5072C2B316F2300040463 /* Persistence.swift in Sources */,
+				BAE507252B316F2200040463 /* ContentView.swift in Sources */,
+				BAE507232B316F2200040463 /* NotasApp.swift in Sources */,
+				BAE5072F2B316F2300040463 /* Notas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE507302B316F2400040463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE507392B316F2400040463 /* NotasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE5073A2B316F2400040463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE507452B316F2400040463 /* NotasUITestsLaunchTests.swift in Sources */,
+				BAE507432B316F2400040463 /* NotasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE507362B316F2400040463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE5071E2B316F2200040463 /* Notas */;
+			targetProxy = BAE507352B316F2400040463 /* PBXContainerItemProxy */;
+		};
+		BAE507402B316F2400040463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE5071E2B316F2200040463 /* Notas */;
+			targetProxy = BAE5073F2B316F2400040463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAE507462B316F2400040463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE507472B316F2400040463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE507492B316F2400040463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notas/Preview Content\"";
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.Notas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE5074A2B316F2400040463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notas/Preview Content\"";
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.Notas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE5074C2B316F2400040463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Debug;
+		};
+		BAE5074D2B316F2400040463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NotasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notas";
+			};
+			name = Release;
+		};
+		BAE5074F2B316F2400040463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NotasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notas;
+			};
+			name = Debug;
+		};
+		BAE507502B316F2400040463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2365W7GK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alain.NotasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE5071A2B316F2200040463 /* Build configuration list for PBXProject "Notas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE507462B316F2400040463 /* Debug */,
+				BAE507472B316F2400040463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE507482B316F2400040463 /* Build configuration list for PBXNativeTarget "Notas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE507492B316F2400040463 /* Debug */,
+				BAE5074A2B316F2400040463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE5074B2B316F2400040463 /* Build configuration list for PBXNativeTarget "NotasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE5074C2B316F2400040463 /* Debug */,
+				BAE5074D2B316F2400040463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE5074E2B316F2400040463 /* Build configuration list for PBXNativeTarget "NotasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE5074F2B316F2400040463 /* Debug */,
+				BAE507502B316F2400040463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAE5072D2B316F2300040463 /* Notas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAE5072E2B316F2300040463 /* Notas.xcdatamodel */,
+			);
+			currentVersion = BAE5072E2B316F2300040463 /* Notas.xcdatamodel */;
+			path = Notas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAE507172B316F2200040463 /* Project object */;
+}
