@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct addView: View {
-    @ObservedObject var model : ViewModel
+    @StateObject var model : ViewModel
     @Environment (\.managedObjectContext) var context
     var body: some View {
         
@@ -45,7 +45,6 @@ struct addView: View {
                 .frame(width: UIScreen.main.bounds.width - 30)
                 .background(Color.blue)
                 .cornerRadius(8)
-            
             
         }.padding()
     }
