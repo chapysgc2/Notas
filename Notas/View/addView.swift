@@ -9,6 +9,7 @@ import SwiftUI
 
 struct addView: View {
     @ObservedObject var model : ViewModel
+    @Environment (\.managedObjectContext) var context
     var body: some View {
         
         VStack {
@@ -23,6 +24,7 @@ struct addView: View {
             Spacer()
             
             Button(action:{
+                model.saveData(context: context)
                 
             }){
                 Label(
